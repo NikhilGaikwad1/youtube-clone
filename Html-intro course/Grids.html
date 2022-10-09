@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Grid Practice</title>
+   <!--- <link rel="stylesheet" href="/styles/grids.css"> -->
+</head>
+
+<body>
+<div style="margin-top:20px;display:grid;
+                grid-template-columns: 100px 100px;">
+    <div style="background-color:cyan;">Blue1</div>
+    <div style="background-color:pink"><p>Blue2</p></div>
+
+</div>
+
+<div style="margin-top:10px;display:grid;
+grid-template-columns:  100px 100px;"> <!--parent grid-->
+<div style="background-color:cyan;">Blue1</div>
+<div style="background-color:pink"><p>Blue2</p></div>
+<!--placed into a grid-->
+</div>
+
+
+<div style="display:grid; 
+    row-gap:10px; 
+    margin-top:50px;
+    color:white;
+    height:130px; 
+    column-gap:20px; 
+    grid-template-columns:100px 1fr 100px;">
+    <div style="background-color:
+    rgb(25, 29, 135);">Block3 </div>
+    <div style="background-color:
+    Lightgreen; text-decoration:underline;"> 100px </div>
+    <div style="background-color:
+    rgb(140, 119, 191);">Block2 </div>
+    <div style="background-color:
+    rgb(151, 40, 12);">Block4 </div>
+    <div style="background-color:
+    rgb(37, 165, 177);">100px </div>
+    <div style="background-color:
+    rgb(11, 151, 65);">100px </div>
+</div> <!--grids are rigid example-->
+
+
+<div style="display:grid;
+    row-gap:10px; 
+    margin-top:50px; 
+    color:white; 
+    height:130px; 
+    column-gap:20px; 
+    grid-template-columns:1fr 1fr 1fr;">
+    <div style="background-color:
+    rgb(151, 40, 12);">Block3 </div>
+    <div style="background-color:
+    rgb(37, 165, 177);">Block3 </div>
+    <div style="background-color:
+    rgb(11, 151, 65);">Block3 </div>
+    <div style="background-color:
+    Lightgreen; text-decoration:underline;"> Block1 </div>
+    <div style="background-color
+    :rgb(140, 119, 191);">Block2 </div>
+    <div style="background-color:
+    rgb(25, 29, 135);">Block3 </div>
+</div>
